@@ -61,8 +61,8 @@ const ServiceCard = ({
         </div>
         <div className="flex items-center space-x-4">
           <div className="flex items-center">
-            <Star className="h-4 w-4 text-yellow-400 mr-1" />
-            <span className="text-sm">{rating}</span>
+            <Star className="h-4 w-4 text-fivella-light-pink mr-1" />
+            <span className="text-sm font-medium text-black">{rating}</span>
           </div>
           <Button size="sm" variant="ghost" className="p-0 h-8 w-8">
             <MessageSquare className="h-4 w-4 text-fivella-purple" />
