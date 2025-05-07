@@ -6,7 +6,7 @@ import {
   SheetContent, 
   SheetTrigger 
 } from "@/components/ui/sheet";
-import { Menu, X } from "lucide-react";
+import { Menu } from "lucide-react";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +18,12 @@ const Header = () => {
       <div className="container flex h-16 items-center justify-between px-4 md:px-6">
         <div className="flex items-center gap-2">
           <a href="/" className="flex items-center space-x-2">
-            <span className="font-bold text-2xl text-fivella-purple">
+            <img 
+              src="/lovable-uploads/abf7899e-fdb5-475e-ad1a-6c721ae9c4a7.png" 
+              alt="Fivella Logo" 
+              className="h-10 w-auto" 
+            />
+            <span className="font-bold text-2xl text-fivella-purple hidden md:block">
               Fivella<span className="text-black">!</span>
             </span>
           </a>
@@ -51,7 +56,17 @@ const Header = () => {
               </Button>
             </SheetTrigger>
             <SheetContent side="right">
-              <div className="flex flex-col gap-6 pt-10">
+              <div className="flex items-center mt-4 mb-8">
+                <img 
+                  src="/lovable-uploads/abf7899e-fdb5-475e-ad1a-6c721ae9c4a7.png" 
+                  alt="Fivella Logo" 
+                  className="h-10 w-auto" 
+                />
+                <span className="font-bold text-2xl text-fivella-purple ml-2">
+                  Fivella<span className="text-black">!</span>
+                </span>
+              </div>
+              <div className="flex flex-col gap-6 pt-4">
                 <a 
                   href="#how-it-works" 
                   className="text-lg font-medium transition-colors hover:text-fivella-purple"

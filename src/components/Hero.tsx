@@ -76,6 +76,13 @@ const Hero = () => {
 
       <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
+          <div className="flex justify-center mb-6">
+            <img 
+              src="/lovable-uploads/abf7899e-fdb5-475e-ad1a-6c721ae9c4a7.png" 
+              alt="Fivella Logo" 
+              className="h-20 w-auto" 
+            />
+          </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 mb-6">
             <span className="block">Service Marketplace</span>
             <span className="block text-fivella-purple">For <span className="italic">Everyday</span> Malaysians</span>
