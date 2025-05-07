@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import Header from '@/components/Header';
@@ -47,7 +48,7 @@ const Index = () => {
       rating: 4.6,
       location: "Shah Alam",
       providerName: "Zul Azmi",
-      color: "bg-fivella-yellow"
+      color: "bg-fivella-light-pink"
     },
     {
       title: "CV & Resume Writing",
