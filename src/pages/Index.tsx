@@ -81,7 +81,7 @@ const Index = () => {
         
         <HowItWorks />
         
-        <section id="services" className="py-16">
+        <section id="services" className="bg-[#FFE5B4] py-16">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="mb-2">Popular Services</h2>
@@ -107,7 +107,7 @@ const Index = () => {
             </div>
             
             <div className="mt-12 text-center">
-              <Button variant="outline" className="border-fivella-purple text-fivella-purple hover:bg-fivella-light-purple">
+              <Button variant="outline" className="bg-[#FFE5B4] text-fivella-purple border-fivella-purple hover:bg-fivella-light-purple">
                 View All Services
               </Button>
             </div>
