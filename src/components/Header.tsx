@@ -41,8 +41,8 @@ const Header = () => {
             FAQ
           </a>
           <div className="flex items-center gap-4">
-            <Button variant="outline" className="text-fivella-purple border-fivella-purple hover:bg-fivella-light-purple">Log In</Button>
-            <Button className="bg-fivella-purple hover:bg-fivella-dark-purple">Sign Up</Button>
+            <Button variant="outline" className="bg-[#FFE5B4] text-fivella-purple border-fivella-purple hover:bg-fivella-light-purple">Log In</Button>
+            <Button className="btn-gradient">Sign Up</Button>
           </div>
         </nav>
 

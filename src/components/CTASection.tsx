@@ -11,10 +11,10 @@ const CTASection = () => {
           Whether you're looking to offer services or hire someone for a task, Fivella makes it easy, safe, and rewarding.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <Button size="lg" variant="outline" className="bg-white border-white text-fivella-purple hover:bg-[#FFE5B4] text-gray-800 rounded shadow">
+          <Button size="lg" variant="outline" className="bg-white border-white text-fivella-purple hover:bg-[#FFE5B4] text-gray-800">
             Get Started Now
           </Button>
-          <Button size="lg" variant="outline" className="bg-white border-white text-fivella-purple hover:bg-[#FFE5B4] text-gray-800 rounded shadow">
+          <Button size="lg" variant="outline" className="bg-white border-white text-fivella-purple hover:bg-[#FFE5B4] text-gray-800">
             Learn More
           </Button>
         </div>

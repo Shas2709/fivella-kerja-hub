@@ -94,7 +94,7 @@ const Hero = () => {
             <Button size="lg" className="btn-gradient">
               Hire Someone
             </Button>
-            <Button size="lg" variant="outline" className="border-2 border-fivella-purple text-fivella-purple hover:bg-fivella-light-purple">
+            <Button size="lg" variant="outline" className="bg-[#FFE5B4] border-2 border-fivella-purple text-fivella-purple hover:bg-fivella-light-purple">
               Offer Your Services
             </Button>
           </div>
