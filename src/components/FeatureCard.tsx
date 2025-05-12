@@ -11,7 +11,7 @@ interface FeatureCardProps {
 
 const FeatureCard = ({ icon, title, description, color }: FeatureCardProps) => {
   return (
-    <Card className="card-hover border-none">
+    <Card className="bg-[#FFE5B4] card-hover border-none">
       <CardHeader className="pb-2">
         <div className={`w-12 h-12 rounded-full flex items-center justify-center mb-4 ${color}`}>
           {icon}
