@@ -5,7 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 interface FeatureCardProps {
   icon: React.ReactNode;
   title: string;
-  description: React.ReactNode;
+  description: string;
   color: string;
 }
 

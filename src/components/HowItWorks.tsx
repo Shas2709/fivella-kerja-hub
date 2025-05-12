@@ -8,28 +8,28 @@ const HowItWorks = () => {
     {
       icon: <User className="h-6 w-6 text-fivella-purple" />,
       title: "Verified Users",
-      description: <span className="text-gray-700">Every user is verified with Malaysian Student ID or MyKad for maximum safety and trust.</span>,
+      description: "Every user is verified with Malaysian Student ID or MyKad for maximum safety and trust.",
       color: "bg-fivella-light-purple"
     },
     {
       icon: <MapPin className="h-6 w-6 text-blue-500" />,
       title: "Smart Matching",
-      description: <span className="text-gray-700">Our location-based algorithm helps you find the perfect service provider nearby.</span>,
+      description: "Our location-based algorithm helps you find the perfect service provider nearby.",
       color: "bg-fivella-blue"
     },
     {
       icon: <MessageCircle className="h-6 w-6 text-green-500" />,
       title: "Built-in Chat",
-      description: <span className="text-gray-700">Communicate directly with service providers or clients through our secure messaging system.</span>,
+      description: "Communicate directly with service providers or clients through our secure messaging system.",
       color: "bg-fivella-green"
     },
     {
       icon: <Wallet className="h-6 w-6 text-orange-500" />,
       title: "Secure Payments",
-      description: <span className="text-gray-700">Our escrow system ensures money is only released when both parties are satisfied.</span>,
+      description: "Our escrow system ensures money is only released when both parties are satisfied.",
       color: "bg-fivella-orange"
     }
-    ];
+  ];
 
   return (
     <section id="how-it-works" className="py-16 bg-gray-50">
