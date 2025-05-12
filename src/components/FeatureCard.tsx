@@ -19,7 +19,7 @@ const FeatureCard = ({ icon, title, description, color }: FeatureCardProps) => {
         <CardTitle>{title}</CardTitle>
       </CardHeader>
       <CardContent>
-        <CardDescription className="text-base">{description}</CardDescription>
+        <CardDescription className="text-base text-gray-700">{description}</CardDescription>
       </CardContent>
     </Card>
   );
