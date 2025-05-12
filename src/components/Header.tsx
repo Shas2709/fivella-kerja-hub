@@ -14,7 +14,7 @@ const Header = () => {
   const closeMenu = () => setIsOpen(false);
 
   return (
-    <header className="sticky top-0 z-40 w-full border-b bg-background/80 backdrop-blur-md">
+    <header className="sticky top-0 z-40 w-full border-b bg-[#FFE5B4]/80 backdrop-blur-md">
       <div className="container flex h-16 items-center justify-between px-4 md:px-6">
         <div className="flex items-center gap-2">
           <a href="/" className="flex items-center space-x-2">
@@ -31,13 +31,13 @@ const Header = () => {
         
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-6">
-          <a href="#how-it-works" className="text-sm font-medium transition-colors hover:text-fivella-purple">
+          <a href="#how-it-works" className="text-sm font-medium text-black transition-colors hover:text-fivella-purple">
             How It Works
           </a>
-          <a href="#services" className="text-sm font-medium transition-colors hover:text-fivella-purple">
+          <a href="#services" className="text-sm font-medium text-black transition-colors hover:text-fivella-purple">
             Services
           </a>
-          <a href="#faq" className="text-sm font-medium transition-colors hover:text-fivella-purple">
+          <a href="#faq" className="text-sm font-medium text-black transition-colors hover:text-fivella-purple">
             FAQ
           </a>
           <div className="flex items-center gap-4">
@@ -55,7 +55,7 @@ const Header = () => {
                 <span className="sr-only">Toggle menu</span>
               </Button>
             </SheetTrigger>
-            <SheetContent side="right">
+            <SheetContent side="right" className="bg-[#FFE5B4]">
               <div className="flex items-center mt-4 mb-8">
                 <img 
                   src="/lovable-uploads/abf7899e-fdb5-475e-ad1a-6c721ae9c4a7.png" 
@@ -69,21 +69,21 @@ const Header = () => {
               <div className="flex flex-col gap-6 pt-4">
                 <a 
                   href="#how-it-works" 
-                  className="text-lg font-medium transition-colors hover:text-fivella-purple"
+                  className="text-lg font-medium text-black transition-colors hover:text-fivella-purple"
                   onClick={closeMenu}
                 >
                   How It Works
                 </a>
                 <a 
                   href="#services" 
-                  className="text-lg font-medium transition-colors hover:text-fivella-purple"
+                  className="text-lg font-medium text-black transition-colors hover:text-fivella-purple"
                   onClick={closeMenu}
                 >
                   Services
                 </a>
                 <a 
                   href="#faq" 
-                  className="text-lg font-medium transition-colors hover:text-fivella-purple"
+                  className="text-lg font-medium text-black transition-colors hover:text-fivella-purple"
                   onClick={closeMenu}
                 >
                   FAQ
