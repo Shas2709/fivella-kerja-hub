@@ -80,7 +80,7 @@ const Hero = () => {
             <img 
               src="/lovable-uploads/abf7899e-fdb5-475e-ad1a-6c721ae9c4a7.png" 
               alt="Fivella Logo" 
-              className="h-20 w-auto" 
+              className="h-[150px] w-auto" 
             />
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 mb-6">
