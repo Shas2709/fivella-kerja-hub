@@ -24,7 +24,7 @@ const Header = () => {
               className="h-10 w-auto" 
             />
             <span className="font-bold text-2xl text-fivella-purple hidden md:block">
-              Fivella<span className="text-black">!</span>
+              Fivella!<span className="text-black"></span>
             </span>
           </a>
         </div>
